@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>DOM</title>
+    <meta charset="UTF-8">
+	<meta name="author" content="Jennifer Herrera Montoya">
+	<link rel="icon" type="image/ico" href="imagenes/js.png">
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Boostrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--MI CSS-->
+  <link rel="stylesheet" type="text/css" href="css/mi_css.css">
+   
+</head>
+<body class="bg-secondary">
+    <header class="container-fluid border-bottom bg-light">
+        <div class="container text-center text-white p-2">
+          <img src="imagenes/logoDOM.png" alt="logo que hace referencia a la página de JenFlix">
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" onclick="showHomePage()" href="#">JenFlix</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias<span class="sr-only">(current)</span>
+                </a>
+                <div class="dropdown-menu" id="submenu" aria-labelledby="navbarDropdown"></div>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="showActors()">Actores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="showDirectors()">Directores</a>
+          </li>  
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <main class="container border border-primary rounded h-100 mt-3 mb-3 bg-light" id="main">
+      <div id="encabezado"></div>
+      <div class="row justify-content-center" id="Principal"></div>
+    </main>
+    <footer class="container-fluid bg-light">
+        <div class="container text-center text-primary p-3">Autora - Jennifer Herrera Montoya</div>
+    </footer>
+
+    <!--Mis .js-->
+    <script src="js/BaseException.js"></script>
+    <script src="js/DOM.js"></script>
+    <script src="js/VideoSystemObjects.js"></script>
+    <script src="js/videoSystem.js"></script>
+  
+    <!-- Boostrap JS -->
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
