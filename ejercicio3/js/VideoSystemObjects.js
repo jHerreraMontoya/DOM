@@ -309,7 +309,7 @@ function Movie(title,publication,image,resource = null, locations = null){
 	Production.call(this,title,publication,image);
 
 	var _resource = resource;
-	var _locations = locations;
+	var _locations = locations || "Carece de localización.";
 
 	Object.defineProperty(this, 'resource', {
 		get:function(){
