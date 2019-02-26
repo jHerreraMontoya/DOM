@@ -1018,7 +1018,7 @@ function showProduction(){
 
             var img = document.createElement("img");
             img.setAttribute("src", production.value.image);
-            img.setAttribute("alt", production.value.name);
+            img.setAttribute("alt", production.value.title);
             img.setAttribute("class", "card-img-top w-100 m-2 rounded");
             colFilaA.appendChild(img);
 
