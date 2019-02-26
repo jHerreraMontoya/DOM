@@ -3,7 +3,7 @@
 ## Autora
 Jennifer Herrera Montoya
 
-# Control de Versiones
+### Control de Versiones
 _• v1.0.0 - Se añade el ejercicio 2 correspondiente a la realización de un menú horizontal al repositorio_
 ```
 • Ejercicio 2
