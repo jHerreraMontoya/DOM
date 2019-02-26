@@ -24,3 +24,9 @@ _• v1.0.1 - Se añade el ejercicio 3 correspondiente a la realización del DOM
         •videoSystem.js
         •VideoSystemObjects.js
 ```
+
+_• v1.0.2 - Solución de error del alt de las imagenes de la producción _
+```
+• Ejercicio 3
+  En el fichero DOM.js modificamos el alt de la imagen de la production
+```
