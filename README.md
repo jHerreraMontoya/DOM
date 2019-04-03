@@ -32,3 +32,8 @@ _• v1.0.2 - Solución de error del alt de las imagenes de la producción_
 • Ejercicio 3
   En el fichero DOM.js modificamos el alt de la imagen que hace referencia a la production
 ```
+_• v1.0.3 - Arreglar la visualización de la tarjetas donde se muestran producciones, actores y directores_
+```
+• Ejercicio 3
+  En el fichero DOM.js modificamos el tamaño tanto de imagenes como de tarjetas de las producciones, actores y directores
+```
