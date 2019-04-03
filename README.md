@@ -35,5 +35,6 @@ _• v1.0.2 - Solución de error del alt de las imagenes de la producción_
 _• v1.0.3 - Arreglar la visualización de la tarjetas donde se muestran producciones, actores y directores_
 ```
 • Ejercicio 3
-  En el fichero DOM.js modificamos el tamaño tanto de imagenes como de tarjetas de las producciones, actores y directores
+  En el fichero DOM.js modificamos el tamaño tanto de imagenes como de tarjetas 
+  de las producciones, actores y directores
 ```
