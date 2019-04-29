@@ -92,21 +92,21 @@ function initPopulate() {
 
     //OBJETOS MOVIE
     try {
-        var movie1 = new Movie("8 Apellidos Vascos", "03/14/2014", "imagenes/peliculas_series/apellidos-vascos.jpg", resource1, "\nLatidud: " + coordinate3.getSexagesimalLatitude() + " Longitud: " + coordinate3.getSexagesimalLongitude());
+        var movie1 = new Movie("8 Apellidos Vascos", "03/14/2014","imagenes/peliculas_series/apellidos-vascos.jpg",resource1,"\nLatidud: " + coordinate3.getSexagesimalLatitude() + " Longitud: " + coordinate3.getSexagesimalLongitude());
         //movie1.image = "imagenes/peliculas_series/apellidos-vascos.jpg";
-        var movie2 = new Movie("8 Apellidos Catalanes", "11/18/2015", "imagenes/peliculas_series/apellidos-catalanes.jpg", resource1);
+        var movie2 = new Movie("8 Apellidos Catalanes", "11/18/2015","imagenes/peliculas_series/apellidos-catalanes.jpg",resource1);
         //movie2.image = "imagenes/peliculas_series/apellidos-catalanes.jpg";
-        var movie3 = new Movie("Amigos de más", "05/02/2014", "imagenes/peliculas_series/amigos-de-mas.jpg", resource3);
+        var movie3 = new Movie("Amigos de más", "05/02/2014","imagenes/peliculas_series/amigos-de-mas.jpg",resource3);
         //movie3.image = "imagenes/peliculas_series/amigos-de-mas.jpg";
-        var movie4 = new Movie("Diario de una niñera", "08/24/2007", "imagenes/peliculas_series/diario-de-una-niñera.jpg", resource1, "\nLatidud: " + coordinate1.getSexagesimalLatitude() + " Longitud: " + coordinate1.getSexagesimalLongitude());
+        var movie4 = new Movie("Diario de una niñera", "08/24/2007","imagenes/peliculas_series/diario-de-una-niñera.jpg", resource1, "\nLatidud: " + coordinate1.getSexagesimalLatitude() + " Longitud: " + coordinate1.getSexagesimalLongitude());
         //movie4.image = "imagenes/peliculas_series/diario-de-una-niñera.jpg";
-        var movie5 = new Movie("Dr Strange", "10/28/2016", "imagenes/peliculas_series/dr-strange.jpg", resource3);
+        var movie5 = new Movie("Dr Strange", "10/28/2016","imagenes/peliculas_series/dr-strange.jpg",resource3);
         //movie5.image = "imagenes/peliculas_series/dr-strange.jpg";
-        var movie6 = new Movie("Harry Potter y la Orden del Fénix", "06/28/2017", "imagenes/peliculas_series/harry-potter-y-la-orden-del-fenix.jpg", resource3);
+        var movie6 = new Movie("Harry Potter y la Orden del Fénix", "06/28/2017","imagenes/peliculas_series/harry-potter-y-la-orden-del-fenix.jpg",resource3);
         //movie6.image = "imagenes/peliculas_series/harry-potter-y-la-orden-del-fenix.jpg";
-        var movie7 = new Movie("Los Vengadores", "04/29/2015", "imagenes/peliculas_series/vengadores.jpg", resource3);
+        var movie7 = new Movie("Los Vengadores", "04/29/2015","imagenes/peliculas_series/vengadores.jpg", resource3);
         //movie7.image = "imagenes/peliculas_series/vengadores.jpg";
-        var movie8 = new Movie("Guardianes de la galaxia VOL 1", "08/14/2014", "imagenes/peliculas_series/guardianes-de-la-galaxia.jpg", resource3, "\nLatidud: " + coordinate2.getSexagesimalLatitude() + " Longitud: " + coordinate2.getSexagesimalLongitude());
+        var movie8 = new Movie("Guardianes de la galaxia VOL 1", "08/14/2014","imagenes/peliculas_series/guardianes-de-la-galaxia.jpg", resource3,"\nLatidud: " + coordinate2.getSexagesimalLatitude() + " Longitud: " + coordinate2.getSexagesimalLongitude());
         //movie8.image = "imagenes/peliculas_series/guardianes-de-la-galaxia.jpg";
     } catch (err) {
         console.log(err.toString());
@@ -123,19 +123,19 @@ function initPopulate() {
 
     //OBJETOS SERIE
     try {
-        var serie1 = new Serie("Allí Abajo", "04/07/2015", "imagenes/peliculas_series/alli-abajo.jpg", [season1, season2]);
+        var serie1 = new Serie("Allí Abajo", "04/07/2015", "imagenes/peliculas_series/alli-abajo.jpg",[season1,season2]);
         //serie1.image = "imagenes/peliculas_series/alli-abajo.jpg";
-        var serie2 = new Serie("Sherlock Holmes", "07/25/2010", "imagenes/peliculas_series/sherlock.jpg", [season1, season2, season3]);
+        var serie2 = new Serie("Sherlock Holmes", "07/25/2010","imagenes/peliculas_series/sherlock.jpg", [season1, season2, season3]);
         //serie2.image = "imagenes/peliculas_series/sherlock.jpg";
-        var serie3 = new Serie("The Good Doctor", "09/25/2017", "imagenes/peliculas_series/the-good-doctor.jpg", [season1]);
+        var serie3 = new Serie("The Good Doctor", "09/25/2017","imagenes/peliculas_series/the-good-doctor.jpg",[season1]);
         //serie3.image = "imagenes/peliculas_series/the-good-doctor.jpg";
         var serie4 = new Serie("The Big Bang Theory", "09/24/2007", "imagenes/peliculas_series/the-big-bang-theory.jpg", [season1, season2, season3]);
         //serie4.image = "imagenes/peliculas_series/the-big-bang-theory.jpg";
-        var serie5 = new Serie("Amor Ocasional", "12/07/2018", "imagenes/peliculas_series/amor-ocasional.jpg", [season1]);
+        var serie5 = new Serie("Amor Ocasional", "12/07/2018","imagenes/peliculas_series/amor-ocasional.jpg", [season1]);
         //serie5.image = "imagenes/peliculas_series/amor-ocasional.jpg";
-        var serie6 = new Serie("Muñeca Rusa", "02/10/2019", "imagenes/peliculas_series/muñeca-rusa.jpg", [season1]);
+        var serie6 = new Serie("Muñeca Rusa", "02/10/2019","imagenes/peliculas_series/muñeca-rusa.jpg",[season1]);
         //serie6.image = "imagenes/peliculas_series/muñeca-rusa.jpg";
-        var serie7 = new Serie("Stranger Things", "07/15/2016", "imagenes/peliculas_series/stranger-things.jpg", [season1, season2]);
+        var serie7 = new Serie("Stranger Things", "07/15/2016","imagenes/peliculas_series/stranger-things.jpg",[season1, season2]);
         //serie7.image = "imagenes/peliculas_series/stranger-things.jpg";
     } catch (err) {
         console.log(err.toString());
@@ -303,23 +303,26 @@ function initPopulate() {
 
 function categoriesMenuPopulate() {
     var submenu = document.getElementById("submenu");
-
+    
     var VSystem = VideoSystem.getInstance();
     var categories = VSystem.categories;
     var category = categories.next();
 
     while (category.done !== true) {
         var categoria = category.value.name;
+
         var aCategories = document.createElement("button");
         aCategories.setAttribute("class", "dropdown-item bg-light");
-        aCategories.setAttribute("value", categoria);
+        aCategories.setAttribute("value",categoria);
         submenu.appendChild(aCategories);
         aCategories.appendChild(document.createTextNode(categoria));
-        aCategories.addEventListener("click", showProductions);
-
+        aCategories.addEventListener("click",showProductions);
+        
         category = categories.next();
     }
-}
+}//Fin del categoiesMenuPopulate
+
+
 function showHomePage() {
     //Pongo un encabezado descriptivo
     var divEncabezado = document.getElementById("encabezado");
@@ -398,7 +401,7 @@ function showHomePage() {
 
     }
 
-}
+}//Fin del showHomePage
 
 /*ACTORES*/
 function showActors() {
@@ -475,7 +478,8 @@ function showActors() {
         actor = actors.next();
 
     }
-}
+}//Fin showActors
+
 function showActor() {
     //Pongo un encabezado descriptivo
     var divEncabezado = document.getElementById("encabezado");
@@ -584,7 +588,7 @@ function showActor() {
             cardCuerpo.appendChild(divProduction);
 
 
-
+            //Iteramos sobre las producciones pertenecientes a ese actor
             var productions = VSystem.getProductionsActor(actor.value);
             var production = productions.next();
 
@@ -608,10 +612,20 @@ function showActor() {
                 cardCuerpoB.setAttribute("class", "card-body");
                 cardB.appendChild(cardCuerpoB);
 
-                var cardH5b = document.createElement("h6");
-                cardH5b.setAttribute("class", "card-title text-center");
-                cardCuerpoB.appendChild(cardH5b);
-                cardH5b.appendChild(document.createTextNode(production.value.title));
+                var cardH6b = document.createElement("h6");
+                cardH6b.setAttribute("class", "card-title text-center");
+                cardCuerpoB.appendChild(cardH6b);
+                cardH6b.appendChild(document.createTextNode(production.value.title));
+
+                var cardH6c = document.createElement("h6");
+                cardH6c.setAttribute("class","card-title text-center");
+                cardCuerpoB.appendChild(cardH6c);
+
+                if(production.value instanceof Movie){
+                    cardH6c.appendChild(document.createTextNode("Película"));
+                }else{
+                    cardH6c.appendChild(document.createTextNode("Serie"));
+                }
 
                 var cardPieB = document.createElement("div");
                 cardPieB.setAttribute("class", "card-footer");
@@ -621,19 +635,18 @@ function showActor() {
                 cardEnlaceB.setAttribute("value", production.value.title);
                 cardEnlaceB.setAttribute("class", "btn btn-outline-primary btn-block");
                 cardPieB.appendChild(cardEnlaceB);
-                cardEnlaceB.appendChild(document.createTextNode("Leer más..."));
+                cardEnlaceB.appendChild(document.createTextNode("Ver más..."));
 
-                cardEnlaceB.addEventListener("click", showProduction);
+                cardEnlaceB.addEventListener("click",showProduction);
 
                 production = productions.next();
             }
 
         }
-
         actor = actors.next();
 
     }
-}
+} //Fin showActor
 
 /*DIRECTORES*/
 function showDirectors() {
@@ -709,7 +722,7 @@ function showDirectors() {
         director = directors.next();
 
     }
-}
+}//Fin showDirectors
 
 //Retorna la información del director con sus producciones
 function showDirector() {
@@ -819,6 +832,7 @@ function showDirector() {
             cardCuerpo.appendChild(divProduction);
 
 
+            //Iteramos sobre las producciones pertenecientes a ese director
             var productions = VSystem.getProductionsDirector(director.value);
             var production = productions.next();
 
@@ -842,10 +856,20 @@ function showDirector() {
                 cardCuerpoB.setAttribute("class", "card-body");
                 cardB.appendChild(cardCuerpoB);
 
-                var cardH5b = document.createElement("h6");
-                cardH5b.setAttribute("class", "card-title text-center");
-                cardCuerpoB.appendChild(cardH5b);
-                cardH5b.appendChild(document.createTextNode(production.value.title));
+                var cardH6b = document.createElement("h6");
+                cardH6b.setAttribute("class", "card-title text-center");
+                cardCuerpoB.appendChild(cardH6b);
+                cardH6b.appendChild(document.createTextNode(production.value.title));
+
+                var cardH6c = document.createElement("h6");
+                cardH6c.setAttribute("class","card-title text-center");
+                cardCuerpoB.appendChild(cardH6c);
+
+                if(production.value instanceof Movie){
+                    cardH6c.appendChild(document.createTextNode("Película"));
+                }else{
+                    cardH6c.appendChild(document.createTextNode("Serie"));
+                }
 
                 var cardPieB = document.createElement("div");
                 cardPieB.setAttribute("class", "card-footer");
@@ -855,9 +879,9 @@ function showDirector() {
                 cardEnlaceB.setAttribute("value", production.value.title);
                 cardEnlaceB.setAttribute("class", "btn btn-outline-primary btn-block");
                 cardPieB.appendChild(cardEnlaceB);
-                cardEnlaceB.appendChild(document.createTextNode("Leer más..."));
+                cardEnlaceB.appendChild(document.createTextNode("Ver más..."));
 
-                cardEnlaceB.addEventListener("click", showProduction);
+                cardEnlaceB.addEventListener("click",showProduction);
 
                 production = productions.next();
             }
@@ -867,7 +891,7 @@ function showDirector() {
 
     }
 
-}
+} //Fin showDirector
 
 function showProductions() {
     //Pongo un encabezado descriptivo
@@ -893,7 +917,7 @@ function showProductions() {
     while (principal.firstChild) {
         principal.removeChild(principal.firstChild);
     }
-
+    
     //Con un iterador recorremos los categorias del videoSystem
     var VSystem = VideoSystem.getInstance();
     var categories = VSystem.categories;
@@ -910,11 +934,11 @@ function showProductions() {
 
             while (production.done !== true) {
                 var cols = document.createElement("div");
-                cols.setAttribute("class", "col-12 col-md-4 mt-3 mb-3");
+                cols.setAttribute("class", "col-12 col-md-4");
                 principal.appendChild(cols);
 
                 var card = document.createElement("div");
-                card.setAttribute("class", "card h-100");
+                card.setAttribute("class","card m-3");
                 cols.appendChild(card);
 
                 var img = document.createElement("img");
@@ -927,19 +951,19 @@ function showProductions() {
                 cardCuerpo.setAttribute("class", "card-body");
                 card.appendChild(cardCuerpo);
 
-                var cardPT = document.createElement("h5");
-                cardPT.setAttribute("class", "card-title text-center");
+                var cardPT= document.createElement("p");
+                cardPT.setAttribute("class", "card-title text-center h3");
                 cardCuerpo.appendChild(cardPT);
                 cardPT.appendChild(document.createTextNode(production.value.title));
 
-                var cardP = document.createElement("h5");
-                cardP.setAttribute("class", "card-text text-center");
+                var cardP = document.createElement("p");
+                cardP.setAttribute("class","card-text text-center h5");
                 cardCuerpo.appendChild(cardP);
 
                 //Miramos si la production es una instancia de pelicula o serie para ponerle a la production un titulo indentificativo
-                if (production.value instanceof Movie) {
+                if(production.value instanceof Movie){
                     cardP.appendChild(document.createTextNode("Película"));
-                } else {
+                }else{
                     cardP.appendChild(document.createTextNode("Serie"));
                 }
 
@@ -958,7 +982,7 @@ function showProductions() {
                 cardEnlace.addEventListener("click", showProduction);
 
 
-
+                
 
                 production = productions.next();
             }
@@ -966,9 +990,9 @@ function showProductions() {
 
         category = categories.next();
     }
-}//Fin del showProductions
+}//Fin showProductions
 
-function showProduction() {
+function showProduction(){
     //Pongo un encabezado descriptivo
     var divEncabezado = document.getElementById("encabezado");
     // Eliminando todos los hijos de un elemento, en este caso el elemento Encabezado
@@ -992,14 +1016,14 @@ function showProduction() {
     while (principal.firstChild) {
         principal.removeChild(principal.firstChild);
     }
-    
+
     var VSystem = VideoSystem.getInstance();
     var productions = VSystem.productions;
     var production = productions.next();
 
-    while (production.done !== true) {
+    while(production.done !== true){
         var tituloP = production.value.title;
-        if (tituloP == this.value) {
+        if(tituloP ==  this.value){
             var cols = document.createElement("div");
             cols.setAttribute("class", "col-12 m-4");
             principal.appendChild(cols);
@@ -1041,32 +1065,32 @@ function showProduction() {
             cardPA.appendChild(document.createTextNode("Fecha de Publicación: " + production.value.publication.toLocaleDateString()));
 
             //Miramos si la  production es una instancia de movie o de serie
-            if (production.value instanceof Movie) {
+            if(production.value instanceof Movie){ 
                 var recurso = production.value.resource;
-                if (recurso !== null) {
+                if(recurso !== null){
                     var cardPB = document.createElement("p");
                     cardPB.setAttribute("class", "card-text");
                     cardCuerpo.appendChild(cardPB);
                     cardPB.appendChild(document.createTextNode("Recurso: " + recurso));
                 }
-
+                
                 var localizacion = production.value.locations;
-                if (localizacion !== null) {
+                if(localizacion !== null){
                     var cardPC = document.createElement("p");
                     cardPC.setAttribute("class", "card-text");
                     cardCuerpo.appendChild(cardPC);
-                    cardPC.appendChild(document.createTextNode("Localización: " + localizacion));
+                    cardPC.appendChild(document.createTextNode("Localización: " + localizacion)); 
                 }
-            } else {
+            }else{
                 var temporadas = production.value.seasons;
-                if (temporadas !== null) {
+                if(temporadas !== null){
                     var cardPD = document.createElement("p");
                     cardPD.setAttribute("class", "card-text");
                     cardCuerpo.appendChild(cardPD);
                     cardPD.appendChild(document.createTextNode("Temporadas: " + temporadas));
                 }
             }
-              
+            
             //La estructura para mostrar el reparto y director/es
             var encabezadoB = document.createElement("h4");
             encabezadoB.setAttribute("class", "border-bottom");
@@ -1075,12 +1099,12 @@ function showProduction() {
 
             var divReparto = document.createElement("div");
             divReparto.setAttribute("class", "row");
-            cardCuerpo.appendChild(divReparto);
+            cardCuerpo.appendChild( divReparto);
             //Recorremos con un iterador los actores que pertenecen a esa production para mostrarlos
             var reparto = VSystem.getCast(production.value);
             var actor = reparto.next();
 
-            while (actor.done !== true) {
+            while(actor.done !== true){
                 var cols = document.createElement("div");
                 cols.setAttribute("class", "col-6 col-sm-6 col-md-3 col-xl-3 col-lg-3 m-4");
                 divReparto.appendChild(cols);
@@ -1118,67 +1142,66 @@ function showProduction() {
                 cardEnlace.appendChild(document.createTextNode("Ver más..."));
 
                 cardEnlace.addEventListener("click", showActor);
-
+                
                 actor = reparto.next();
             } //Fin del iterador del reparto de los actores
 
             var directors = VSystem.directors;
             var director = directors.next();
 
-            while (director.done !== true) {
+            while(director.done !== true){
                 var productions = VSystem.getProductionsDirector(director.value);
                 var production = productions.next();
 
-                while (production.done !== true) {
-                    var produccion = production.value.title;
-                    if (produccion == this.value) {
-                        var cols = document.createElement("div");
-                        cols.setAttribute("class", "col-6 col-sm-6 col-md-3 col-xl-3 col-lg-3 m-4");
-                        divReparto.appendChild(cols);
+            while (production.done !== true) {
+                var produccion = production.value.title;
+                if(produccion == this.value){
+                    var cols = document.createElement("div");
+                    cols.setAttribute("class", "col-6 col-sm-6 col-md-3 col-xl-3 col-lg-3 m-4");
+                    divReparto.appendChild(cols);
 
-                        var card = document.createElement("div");
-                        card.setAttribute("class", "card h-100");
-                        cols.appendChild(card);
-
-
-                        var imgB = document.createElement("img");
-                        imgB.setAttribute("src", director.value.picture);
-                        imgB.setAttribute("alt", director.value.name);
-                        imgB.setAttribute("class", "card-img-top");
-                        card.appendChild(imgB);
-
-                        var cardCuerpoB = document.createElement("div");
-                        cardCuerpoB.setAttribute("class", "card-body");
-                        card.appendChild(cardCuerpoB);
-
-                        var cardH6 = document.createElement("h6");
-                        cardH6.setAttribute("class", "card-title text-center");
-                        cardCuerpoB.appendChild(cardH6);
-                        cardH6.appendChild(document.createTextNode(director.value.name + " " + director.value.lastname1));
-
-                        var cardPieB = document.createElement("div");
-                        cardPieB.setAttribute("class", "card-footer");
-                        card.appendChild(cardPieB);
-
-                        var cardEnlaceB = document.createElement("button");
-                        var nomApe = director.value.name + " " + director.value.lastname1;
-                        cardEnlaceB.setAttribute("value", nomApe);
-                        cardEnlaceB.setAttribute("class", "btn btn-outline-primary btn-block");
-                        cardPieB.appendChild(cardEnlaceB);
-                        cardEnlaceB.appendChild(document.createTextNode("Ver más..."));
-
-                        cardEnlaceB.addEventListener("click", showDirector);
-                    }
-
-                    production = productions.next();
+                    var card = document.createElement("div");
+                    card.setAttribute("class", "card h-100");
+                    cols.appendChild(card);
+    
+    
+                    var imgB = document.createElement("img");
+                    imgB.setAttribute("src", director.value.picture);
+                    imgB.setAttribute("alt",  director.value.name);
+                    imgB.setAttribute("class", "card-img-top h-50");
+                    card.appendChild(imgB);
+    
+                    var cardCuerpoB = document.createElement("div");
+                    cardCuerpoB.setAttribute("class", "card-body");
+                    card.appendChild(cardCuerpoB);
+    
+                    var cardH6 = document.createElement("h6");
+                    cardH6.setAttribute("class", "card-title text-center");
+                    cardCuerpoB.appendChild(cardH6);
+                    cardH6.appendChild(document.createTextNode(director.value.name + " " + director.value.lastname1));
+    
+                    var cardPieB = document.createElement("div");
+                    cardPieB.setAttribute("class", "card-footer");
+                    card.appendChild(cardPieB);
+    
+                    var cardEnlaceB = document.createElement("button");
+                    var nomApe = director.value.name + " " + director.value.lastname1;
+                    cardEnlaceB.setAttribute("value", nomApe);
+                    cardEnlaceB.setAttribute("class", "btn btn-outline-primary btn-block");
+                    cardPieB.appendChild(cardEnlaceB);
+                    cardEnlaceB.appendChild(document.createTextNode("Ver más..."));
+    
+                    cardEnlaceB.addEventListener("click",showDirector);
                 }
+
+                production = productions.next();
+            }
                 director = directors.next();
             }
-        }//Fin del if
-        
-        //Pasa a la siguiente produccion
-        production = productions.next();
-    }//Fin del while iterador
+		}//Fin del if
+		//Pasa a la siguiente produccion
+		production = productions.next();
+	}//Fin del while iterador
 }//Fin de showProduction
 
 function init() {
