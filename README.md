@@ -41,6 +41,6 @@ _• v1.0.3 - Arreglar la visualización de la tarjetas donde se muestran produc
 _• v1.0.4 - Hacer referencia en las producciones de actor y director si es una pelicula o una serie_
 ```
 • Ejercicio 3
-  En el fichero DOM.js añadimos una referencia en cada producción a la que pertenece un actor y un director diferenciando
-  si dicha producción es una película o una serie
+  En el fichero DOM.js añadimos una referencia en cada producción a la que pertenece un actor y un director 
+  diferenciando si dicha producción es una película o una serie
 ```
