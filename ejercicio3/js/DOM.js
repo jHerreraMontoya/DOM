@@ -506,7 +506,6 @@ function showActor() {
     }
 
     //Con un iterador recorremos las categorias del videoSystem
-    //var encontrado = "false";
     var VSystem = VideoSystem.getInstance();
     var actors = VSystem.actors;
     var actor = actors.next();
@@ -619,6 +618,7 @@ function showActor() {
 
                 var cardH6c = document.createElement("h6");
                 cardH6c.setAttribute("class","card-title text-center");
+                cardH6c.style.color = "#007bff";
                 cardCuerpoB.appendChild(cardH6c);
 
                 if(production.value instanceof Movie){
@@ -863,6 +863,7 @@ function showDirector() {
 
                 var cardH6c = document.createElement("h6");
                 cardH6c.setAttribute("class","card-title text-center");
+                cardH6c.style.color = "#007bff";
                 cardCuerpoB.appendChild(cardH6c);
 
                 if(production.value instanceof Movie){
@@ -958,6 +959,7 @@ function showProductions() {
 
                 var cardP = document.createElement("p");
                 cardP.setAttribute("class","card-text text-center h5");
+                cardP.style.color = "#007bff";
                 cardCuerpo.appendChild(cardP);
 
                 //Miramos si la production es una instancia de pelicula o serie para ponerle a la production un titulo indentificativo
