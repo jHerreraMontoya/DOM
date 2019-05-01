@@ -44,3 +44,9 @@ _• v1.0.4 - Hacer referencia en las producciones de actor y director si es una
   En el fichero DOM.js añadimos una referencia en cada producción a la que pertenece un actor y un director 
   diferenciando si dicha producción es una película o una serie
 ```
+_• v1.0.5 -Cambiar el color descriptivo que hace referencia si dicha producción se trata de una película o una serie_
+```
+• Ejercicio 3
+  En el fichero DOM.js cambiamos el color tanto de las producciones pertenecientes a una misma categoria, como las 
+  producciones que que pertenecen a actores o las producciones que pertenecen a directores
+```
